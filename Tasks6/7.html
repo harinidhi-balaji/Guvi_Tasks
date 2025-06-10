@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Adhar Card Form</title>
+    </head>
+    <body>
+        <h2>Adhar Card Information Form</h2>
+
+        <form>
+            <table border="1" cellpadding="10" cellspacing="0" align="center" style="background-color: #ffffff;">
+            <!-- Name -->
+            <!-- Personal Details -->
+
+             <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+             </tr>
+             
+            
+             <!-- Gender -->
+             <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <select id="gender" name="gender">
+                    <option value="">--- Select ---</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                    </select>
+                </td>
+             </tr>
+             
+             <!-- Date of Birth -->
+             <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob" required></td>
+             </tr>
+             
+             <!-- Adhar number -->
+             <tr>
+                <td><label for="address">Address:</label></td>
+                <td><textarea id="address" name="address" rows="4" cols="50" required></textarea></td>
+             </tr>
+             
+
+             <!-- Adhar number -->
+             <tr>
+                <td><label for="adhar">Adhar Number:</label></td>
+                <td><input type="text" id="adhar" name="adhar" maxlength="12" required></td>
+             </tr>
+             
+
+             <!-- Mobile Number -->
+             <tr>
+                <td><label for="mobile">Mobile Number:</label></td>
+                <td><input type="tel" id="mobile" name="mobile" maxlength="10" required></td>
+             </tr>
+             
+
+             <!-- Photo Upload -->
+             <tr>
+                <td><label for="photo">Upload Photo:</label></td>
+                <td><input type="file" id="photo" name="photo" accept="image/*"></td>
+             </tr>
+
+            <!-- Submit Button -->
+             <tr>
+                <td colspan="2" align="center"><input type="submit" value="Submit"></td>
+             </tr>
+            </table>
+        </form>
+    </body>
+</html>
